@@ -1,11 +1,10 @@
-import Andria from "./components/andria";
 import Buba from "./components/Buba";
 import Chago from "./components/Chago";
 import Dachi from "./components/dachi";
 import Luka from "./components/luka";
 import Saba from "./components/saba";
 import Temo from "./components/Temo";
-import Zviangi from "./components/zviangi";
+import Zviangi from "./components/Zviangi";
 
 export default function App() {
   return (
@@ -17,7 +16,6 @@ export default function App() {
       <Dachi />
       <Zviangi />
       <Buba />
-      {/* <Andria /> */}
     </div>
   )
 }
